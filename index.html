@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="app">
+      <header class="container">
+        <nav>
+          <img src="./Assets/camera.svg" alt="" />
+          <ul>
+            <li>Home</li>
+            <li class="active">Gallery</li>
+          </ul>
+        </nav>
+        <form>
+          <div class="input-wrapper">
+            <label for="search">Search for images and collections</label>
+            <input
+              id="search"
+              type="text"
+              placeholder="Search for images and collections"
+            />
+          </div>
+        </form>
+        <img class="avatar" src="./Assets/avatar.png" alt="" />
+      </header>
+      <main>
+        <div class="container">main</div>
+      </main>
+      <footer class="container">
+        <p>© 2024 - Roberto Collazo</p>
+      </footer>
+    </div>
+  </body>
 </html>
